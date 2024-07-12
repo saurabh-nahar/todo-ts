@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.taskdiv{
+    width: full;
+}
+
+.tdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: black;
+    background-color: #a4e8ff;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.tdiv h3 {
+    overflow: hidden;
+    text-overflow:  ellipsis;
+}
+
+.tdiv button{
+    margin-left: 2rem;
+}
+
+.tdiv input{
+    margin-right: 2rem;
+}
